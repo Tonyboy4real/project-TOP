@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li,a{
+    text-decoration: none;
+}
+
+
+header{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px 10%;
+    font-size: 24px;
+    font-weight:bold;
+    color: #f9faf8;
+}
+.hero {
+    display: flex;
+    
+    align-items:center;
+    justify-content: space-between;
+    width: 900px;
+    
+}
+
+
+
+.hero li{
+    display: inline-block;
+    padding: 0px 20px ;
+    
+}
+
+.nav_links{
+    list-style: none;
+    color: #f9faf8;
+    transition: all 0.3s ease 0s;
+
+    
+}
+.nav_links:hover{
+    color: #0088a9;
+
+    
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+#content_photo{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-size: 18px;
+    
+    background-color: #1F2937;
+    color: #f9faf8;
+
+}
+.content h2{
+    font-size: 48px;
+}
+.content button{
+    background-color:#3882F6 ;
+    color: #f9faf8;
+    padding: 10px;
+    margin: 10px;
+    
+    cursor: pointer;
+}
+.photos img{
+    width: 150px;
+    height: 150px;
+    justify-self:center;
+    border: solid red;
+}
+
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 12%;
+    text-align: center;
+}
+
+.random_info h5{
+    text-align: center;
+    margin: 15px;
+    font-size: 36px;
+}
+.item{
+    margin: 5%;
+}
+
+
+.quote{
+    background-color: #E5E7EB ;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    padding: 150px;
+    font-size: 36px;
+    font-style:  italic;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+#author{
+    text-align: right;
+    
+}
+
+
+.cac{
+    margin:25px;
+    margin-left: 35%;
+    background-color:#3882F6 ;
+    display: flex;
+    justify-content: space-between;
+    color: #f9faf8;
+    text-align: center;
+    padding: 25px;
+    width: 30%;
+
+}
+.cac button{
+    background-color:#3882F6 ;
+    color: #f9faf8;
+    padding: 20px;
+    border: white solid 3px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+.text{
+    text-align: left;
+    padding-top: 10px;
+    
+}
+
+.cac button:hover{
+    
+        background-color: #0088a9;
+    
+
+}
+
+footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    font-size: smaller;
+}
